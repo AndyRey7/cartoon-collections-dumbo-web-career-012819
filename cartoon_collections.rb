@@ -5,7 +5,7 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-  arr.each do |word|
+  arr.collect do |word|
     puts "#{word.upcase}!"
   end
 end
