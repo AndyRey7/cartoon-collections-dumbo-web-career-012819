@@ -5,7 +5,8 @@ def roll_call_dwarves(arr)
 end
 
 def summon_captain_planet(arr)
-  arr.map {|word| word.upcase + "!"}
+  arr.collect do |word|
+    
 end
 
 def long_planeteer_calls(calls)
